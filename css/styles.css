@@ -554,7 +554,7 @@ footer .logo {
   opacity: 0;
 }
 
-.project-thumb:hover::before {
+.projects-item:hover .project-thumb::before {
   opacity: 1;
 }
 
@@ -571,7 +571,7 @@ footer .logo {
   color: var(--contacts-color);
 }
 
-.project-thumb:hover .projects-overlay {
+.projects-item:hover .projects-overlay {
   opacity: 1;
 }
 
